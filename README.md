@@ -18,5 +18,15 @@ The design is **fully responsive**, ensuring it adapts to various screen sizes. 
 - **Sidebar**: Expands on larger screens to display additional content such as:
   - **Navigation Links**: Links like Home, Trending, Subscriptions, Library, etc.
 - **Video Grid**: Layout dynamically changes to show more video previews per row on larger screens.
-<br>
-Feel free to reach out if you have any suggestions!
+
+## 📱 Project Preview
+<img width="800" height="auto" alt="Image" src="https://github.com/user-attachments/assets/7d534515-0450-4d73-b617-4520ba458454" />
+
+
+## 🎥 Project Demo
+https://github.com/user-attachments/assets/dac7c79a-45a5-4d18-8452-e7e0e2d1ad23
+
+
+***
+
+Feel free to reach out if you have any suggestions!!
