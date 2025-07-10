@@ -20,7 +20,7 @@ The design is **fully responsive**, ensuring it adapts to various screen sizes. 
 - **Video Grid**: Layout dynamically changes to show more video previews per row on larger screens.
 
 ## 📱 Project Preview
-<img width="600" height="auto" alt="Image" src="https://github.com/user-attachments/assets/7d534515-0450-4d73-b617-4520ba458454" />
+<img width="800" height="auto" alt="Image" src="https://github.com/user-attachments/assets/7d534515-0450-4d73-b617-4520ba458454" />
 
 
 ## 🎥 Project Demo
