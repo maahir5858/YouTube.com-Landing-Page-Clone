@@ -1,0 +1,18 @@
+p {
+  margin: 0;
+}
+
+body{
+  font-family: Roboto, Arial;
+  margin: 0;
+  padding-top: 80px;
+  /* ...we could use margin also in-place of padding but padding-top is preffered as a Best Practice, so... */
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(249, 249, 249);
+  padding-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+}

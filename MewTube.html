@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MewTube.com</title>
+    
+    <link rel="stylesheet" href="css-files/general.css" />
+    <link rel="stylesheet" href="css-files/header.css" />
+    <link rel="stylesheet" href="css-files/video-grid.css" />
+    <link rel="stylesheet" href="css-files/sidebar.css" />
+
+    <link rel="icon" type="image/x-icon" href="icons/youtube.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-sec">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-sec">
+        <input class="search-box" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-sec">
+        <div class="youtube-upload-icon-container">
+          <img class="youtube-upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="youtube-notifications-icon-container">
+          <img class="youtube-notifications-icon" src="icons/notifications.svg">
+          <div class="notification-count">2</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="youtube-channel-pfp" src="icons/channel-pfp.png">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-shorts.svg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="youtube-videos-grid">
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+              <img class="thumbnail" src="thumbnails/1st-thumbnail.png" />
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/c/mkbhd">
+                <img class="pfp" src="profile-pictures/1st-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>  
+              </a>
+              <a href="https://www.youtube.com/c/mkbhd">
+                <p class="video-author">Marques Brownlee</p>
+              </a>
+              <p class="video-details">4.3M views · 4 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+              <img class="thumbnail" src="thumbnails/2nd-thumbnail.png" />
+            </a>
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/c/markiplier">
+                <img class="pfp" src="profile-pictures/2nd-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+                <p class="video-title">Try Not To Laugh Challenge #9</p>
+              </a>
+              <a href="https://www.youtube.com/c/markiplier">
+                <p class="video-author">Markiplier</p>
+              </a>
+              <p class="video-details">21M views · 7 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+              <img class="thumbnail" src="thumbnails/3rd-thumbnail.png" />
+            </a>
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/c/veritasium">
+                <img class="pfp" src="profile-pictures/3rd-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+                <p class="video-title">
+                  The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                </p>
+              </a>
+              <a href="https://www.youtube.com/c/veritasium">
+                <p class="video-author">Veritasium</p>
+              </a>
+              <p class="video-details">43M views · 4 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+              <img class="thumbnail" src="thumbnails/4th-thumbnail.png" />
+            </a>
+            <div class="video-time">4:51</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/teded">
+                <img class="pfp" src="profile-pictures/4th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+                <p class="video-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
+              </a>
+              <a href="https://www.youtube.com/teded">
+                <p class="video-author">TED-Ed</p>
+              </a>
+              <p class="video-details">12M views · 5 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=m-B4xjechhY">
+              <img class="thumbnail" src="thumbnails/5th-thumbnail.png" />
+            </a>
+            <div class="video-time">3:16</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/@5UKHA">
+                <img class="pfp" src="profile-pictures/5th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=m-B4xjechhY">
+                <p class="video-title">DIL DARDEH - SUKHA | THE PROPHEC | NAVAAN SANDHU</p>
+              </a>
+              <a href="https://www.youtube.com/@5UKHA">
+                <p class="video-author">SUKHA</p>
+              </a>
+              <p class="video-details">4.3M views · 3 months ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=mSE70gbmBzw">
+              <img class="thumbnail" src="thumbnails/6th-thumbnail.png" />
+            </a>
+            <div class="video-time">1:31</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/channel/UCKC11MOR51CLg4JpYj8jb4g">
+                <img class="pfp" src="profile-pictures/6th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=mSE70gbmBzw">
+                <p class="video-title">Metro Boomin, Future - I Can't Save You (Interlude) ft. Don Toliver</p>
+              </a>
+              <a href="https://www.youtube.com/@MetroBoomin">
+                <p class="video-author">Metro Boomin</p>
+              </a>
+              <p class="video-details">3.6M views · 2 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=6FewJvQDTmA">
+              <img class="thumbnail" src="thumbnails/7th-thumbnail.png" />
+            </a>
+            <div class="video-time">2:44</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/c/prateekkuhadmusic">
+                <img class="pfp" src="profile-pictures/7th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=6FewJvQDTmA">
+                <p class="video-title">Co2</p>
+              </a>
+              <a href="https://www.youtube.com/c/prateekkuhadmusic">
+                <p class="video-author">Prateek Kuhad</p>
+              </a>
+              <p class="video-details">18M views · 3 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=BL4DCEp7blY">
+              <img class="thumbnail" src="thumbnails/8th-thumbnail.png" />
+            </a>
+            <div class="video-time">1:42:05</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/LinusTechTips">
+                <img class="pfp" src="profile-pictures/8th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=BL4DCEp7blY">
+                <p class="video-title">How to build a PC, the last guide you'll ever need! </p>
+              </a>
+              <a href="https://www.youtube.com/LinusTechTips">
+                <p class="video-author">Linus Tech Tips</p>
+              </a>
+              <p class="video-details">12M views · 3 years ago</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=erEgovG9WBs">
+              <img class="thumbnail" src="thumbnails/9th-thumbnail.png" />
+            </a>
+            <div class="video-time">13:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/Fireship">
+                <img class="pfp" src="profile-pictures/9th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=erEgovG9WBs">
+                <p class="video-title">100+ Web Development Things you Should Know</p>
+              </a>
+              <a href="https://www.youtube.com/Fireship">
+                <p class="video-author">Fireship</p>
+              </a>
+              <p class="video-details">1.7M views · 3 years ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=OR-ADhxY2q4">
+              <img class="thumbnail" src="thumbnails/10th-thumbnail.png" />
+            </a>
+            <div class="video-time">10:26</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/mryeester">
+                <img class="pfp" src="profile-pictures/10th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=OR-ADhxY2q4">
+                <p class="video-title">Why aren't PCs cooled with ICE?</p>
+              </a>
+              <a href="https://www.youtube.com/mryeester">
+                <p class="video-author">mryeester</p>
+              </a>
+              <p class="video-details">1.3M views · 6 months ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=pe_ejTiIcSs">
+              <img class="thumbnail" src="thumbnails/11th-thumbnail.png" />
+            </a>
+            <div class="video-time">36:50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/MrBeast">
+                <img class="pfp" src="profile-pictures/11th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=pe_ejTiIcSs">
+                <p class="video-title">Loose 100 LBs, Win $250,000!</p>
+              </a>
+              <a href="https://www.youtube.com/MrBeast">
+                <p class="video-author">MrBeast</p>
+              </a>
+              <p class="video-details">126M views · 1 week ago</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="video-grid">
+          <div class="video-thumbnail">
+            <a href="https://www.youtube.com/watch?v=78k5-LZwLBo">
+              <img class="thumbnail" src="thumbnails/12th-thumbnail.png" />
+            </a>
+            <div class="video-time">14:58</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="video-pfp">
+              <a href="https://www.youtube.com/ThePrimeTimeagen">
+                <img class="pfp" src="profile-pictures/12th-pfp.png" />
+              </a>
+            </div>
+            <div class="video-info-div">
+              <a href="https://www.youtube.com/watch?v=78k5-LZwLBo">
+                <p class="video-title">50 BILLION MESSAGES PER DAY WITH 32 ENGINEERS</p>
+              </a>
+              <a href="https://www.youtube.com/ThePrimeTimeagen">
+                <p class="video-author">ThePrimeTime</p>
+              </a>
+              <p class="video-details">728K views · 1 year ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

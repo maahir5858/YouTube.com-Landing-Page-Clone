@@ -1,0 +1,85 @@
+.youtube-videos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+
+@media (max-width: 750px) {
+  .youtube-videos-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 750px) and (min-width: 1000px) {
+  .youtube-videos-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  .youtube-videos-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+
+.video-thumbnail {
+  margin-bottom: 8px;
+
+  position: relative; /*...Position Absolute inside a Relative pos. element helps in hovering an item over something...*/
+}
+.thumbnail {
+  width: 100%;
+  /*... this is a very important step, we were forcing the width to be 300 px beforehand now it will be of the size of the whole div which is under GRID display of the master div i.e. of size 1 fr each...*/
+}
+
+.video-time {
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.pfp {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+}
+
+.video-title {
+  font-weight: 500;
+  font-size: 14.5px;
+  color: black;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.video-author,
+.video-details {
+  font-size: 12px;
+  font-weight: 440;
+  color: rgb(96, 96, 96);
+}
+.video-author {
+  margin-bottom: 2px;
+}
+
+@media (min-width: 1200px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .video-author,
+  .video-details {
+    font-size: 14px;
+  }
+}
